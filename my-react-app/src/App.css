@@ -1,0 +1,218 @@
+/* General */
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.author {
+  position: fixed;
+  bottom: 10px;
+  left: 30px;
+}
+
+.homebutton {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+.currenttool {
+  position: fixed;
+  top: -10px;
+  left: 110px; 
+  font-size: 40px;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+/* Calculator */
+.calculator-output {
+  position: fixed;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%); /* this centers it perfectly */
+
+  padding: 15px;
+  border-radius: 10px;
+  min-width: 500px;
+  text-align: left;
+  background-color: rgb(15, 36, 11);
+}
+
+.calculator-1 {
+  width: 70px;
+  position: fixed;
+  padding: 20px;
+  font-size: 50px;
+  top: 30%;
+  left: 46.1%;
+}
+
+.calculator-2 {
+  width: 70px;
+  position: fixed;
+  padding: 20px;
+  font-size: 50px;
+  top: 30%;
+  left: 50%;
+}
+
+.calculator-3 {
+  width: 70px;
+  position: fixed;
+  padding: 20px;
+  font-size: 50px;
+  top: 30%;
+  left: 53.9%;
+}
+
+.calculator-4 {
+  width: 70px;
+  position: fixed;
+  padding: 20px;
+  font-size: 50px;
+  top: 41%;
+  left: 46.1%;
+}
+
+.calculator-5 {
+  width: 70px;
+  position: fixed;
+  padding: 20px;
+  font-size: 50px;
+  top: 41%;
+  left: 50%;
+}
+
+.calculator-6 {
+  width: 70px;
+  position: fixed;
+  padding: 20px;
+  font-size: 50px;
+  top: 41%;
+  left: 53.9%;
+}
+
+.calculator-7 {
+  width: 70px;
+  position: fixed;
+  padding: 20px;
+  font-size: 50px;
+  top: 52%;
+  left: 46.1%;
+}
+
+.calculator-8 {
+  width: 70px;
+  position: fixed;
+  padding: 20px;
+  font-size: 50px;
+  top: 52%;
+  left: 50%;
+}
+
+.calculator-9 {
+  width: 70px;
+  position: fixed;
+  padding: 20px;
+  font-size: 50px;
+  top: 52%;
+  left: 53.9%;
+}
+
+.calculator-0 {
+  width: 70px;
+  position: fixed;
+  padding: 20px;
+  font-size: 50px;
+  top: 63%;
+  left: 50%;
+}
+
+.calculator-submit {
+  width: 70px;
+  position: fixed;
+  padding: 20px;
+  font-size: 50px;
+  top: 63%;
+  left: 53.9%;
+}
+
+.calculator-backspace {
+  width: 70px;
+  position: fixed;
+  padding: 20px;
+  font-size: 50px;
+  top: 63%;
+  left: 46.1%;
+}
+
+.calculator-add {
+  width: 70px;
+  position: fixed;
+  padding: 20px;
+  font-size: 50px;
+  top: 63%;
+  left: 42.2%;
+}
+.calculator-subtract {
+  width: 70px;
+  position: fixed;
+  padding: 20px;
+  font-size: 50px;
+  top: 52%;
+  left: 42.2%;
+}
+
+.calculator-divide {
+  width: 70px;
+  position: fixed;
+  padding: 20px;
+  font-size: 50px;
+  top: 41%;
+  left: 42.2%;
+}
+
+.calculator-multiply {
+  width: 70px;
+  position: fixed;
+  padding: 20px;
+  font-size: 50px;
+  top: 30%;
+  left: 42.2%;
+}
+
+/* Weather */
