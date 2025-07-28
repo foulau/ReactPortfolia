@@ -10,7 +10,7 @@ function App() {
     return (
       <>
         <h1>Built using React.js</h1>
-        <h2>og noen Youtube Tutorials :)</h2>
+        <h2>and some Youtube Tutorials :)</h2>
         <div className="card">
           <button onClick={() => setCurrentPage('Calculator')}>
             Calculator
@@ -19,7 +19,7 @@ function App() {
             Weather
           </button>
         </div>
-        <h3 class="author">by Elias Tverfjell</h3>
+        <h3 class="author">by Rymon</h3>
       </>
     )
   } else if (currentPage === 'Calculator') {
