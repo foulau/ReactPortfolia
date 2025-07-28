@@ -9,17 +9,21 @@ function App() {
   if (currentPage === 'Home') {
     return (
       <>
-        <h1>Built using React.js</h1>
-        <h2>and some Youtube Tutorials :)</h2>
+        <div className="titles">
+          <h1>Built using React.js</h1>
+          <h2>and some Youtube Tutorials</h2>
+        </div>
         <div className="card">
-          <button onClick={() => setCurrentPage('Calculator')}>
+          <h2 class="category-title-other">Other: </h2>
+          <h2 class="category-title-math">Math: </h2>
+          <button className="calculator-button" onClick={() => setCurrentPage('Calculator')}>
             Calculator
           </button>
-          <button onClick={() => setCurrentPage('Weather')}>
+          <button className="weather-button" onClick={() => setCurrentPage('Weather')}>
             Weather
           </button>
         </div>
-        <h3 class="author">by Rymon</h3>
+        <h3 class="author">by Rymon on <a href='https://github.com/foulau/ReactPortfolia'>https://github.com/foulau/ReactPortfolia</a></h3>
       </>
     )
   } else if (currentPage === 'Calculator') {

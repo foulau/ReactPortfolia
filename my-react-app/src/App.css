@@ -26,6 +26,13 @@
   left: 30px;
 }
 
+.titles {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .homebutton {
   position: fixed;
   top: 10px;
@@ -56,6 +63,34 @@
 
 .card {
   padding: 2em;
+}
+
+.category-title-other {
+  font-size: 30px;
+  left: 5%; 
+  position: fixed;
+  top: 7.5%;
+}
+
+.category-title-math {
+  font-size: 30px;
+  left: 16.5%; 
+  position: fixed;
+  top: 7.5%;
+}
+
+.weather-button {
+  font-size: 40px;
+  left: 2.5%; 
+  position: fixed;
+  top: 15%
+}
+
+.calculator-button {
+  font-size: 40px;
+  left: 13%; 
+  position: fixed;
+  top: 15%
 }
 
 /* Calculator */
